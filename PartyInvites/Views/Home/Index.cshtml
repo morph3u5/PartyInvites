@@ -1,0 +1,22 @@
+﻿@using System.Web.UI.HtmlControls
+
+@{
+    Layout = null;
+    ViewBag.Title = "Index Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    </head>
+<body>
+<div> 
+    @ViewBag.Greetings World!
+</div>
+    
+<div>@Html.ActionLink("RSVP Now","RsvpForm" )</div>
+</body>
+</html>
